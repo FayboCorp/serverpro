@@ -1,0 +1,30 @@
+#floatingScreen{
+
+    position: absolute;
+    top: 32%;
+    left: 30.5%;
+    z-index: 50;
+    height: 150px;
+    width: 400px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: left;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+
+#loginUsernameField{
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+
+#logingPasswordField{
+    position: relative;
+    left: 15%;
+    top: 30%;
+}
