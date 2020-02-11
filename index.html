@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js">
+</script>
+
+
+
+<html>
+    <!-- Load style sheets -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Group 10 GR5</title>
+    </head>
+    <div class = "container" id="containerid">
+        <!--Our tasks will be held and displayed here.-->
+
+        <div id="floating-panel">
+            <ul id="ordered-task">
+
+            </ul>
+        </div>
+    </div>
+    <div class ="input">
+        <!--Our input box shall be down here.-->
+        <!--keypress support added.-->
+        <input id="userIn" placeholder="Enter your task here..." type = "text" onkeypress="handleKeyPress(event)">
+        <input id="taskButton" type="button" value="Enter" onclick="addTask()">
+    </div>
+</html>
